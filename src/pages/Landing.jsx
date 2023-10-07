@@ -1,13 +1,13 @@
-import Home from "./Home"
-import  Heading  from "./component/Heading"
-import Navbar from "./component/Navbar"
-import About from "./About"
-import SecHeading from "./component/SecHeading"
-import JTTS from "./JTTS"
-import Contactus from "./Contactus"
-import Footer from "./Footer"
+import Home from "../Home"
+import  Heading  from "../component/Heading"
+import Navbar from "../component/Navbar"
+import About from "../About"
+import SecHeading from "../component/SecHeading"
+import JTTS from "../JTTS"
+import Contactus from "../Contactus"
+import Footer from "../Footer"
 
-function App() {
+function Landing() {
   return (
     
   <div className="bg-black">
@@ -26,4 +26,4 @@ function App() {
 }
 
 
-export default App
+export default Landing
